@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<!-- HTML Tag -->
+<html lang="en">
+
+<!-- HEAD TAG (Used to store Meta Info, Titles, Links, etc) -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META DESCRIPTION, META AUTHOR, LINK FEVICON -->
+    <meta name="This is the basics of an html. Here you are going to find a lot more about an html." content="HTML">
+    <meta author="Vishal">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <title>Main Index</title>
+</head>
+
+<!-- BODY TAG -->
+<body>
+
+    <!-- HEADING TAG -->
+    <!-- COMMENT TAG - Press Ctrl and slash for making Comment. -->
+    <h1>This is a heading.</h1>
+    <h2>This is a heading.</h2>
+    <h3>This is a heading.</h3>
+    <h4>This is a heading.</h4>
+    <h5>This is a heading.</h5>
+    <h6>This is a heading.</h6>
+
+    <!-- HORIZONTAL LINING TAG -->
+    <hr>
+
+    <!-- PARAGRAPH TAG -->
+    <p>This is the paragraph.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, a.</p>
+
+    <hr>
+
+    <!-- ANCHOR TAG AND TARGET ATTRIBUTE [ABSOLUTE AND RELATIVE LINK RESPECTIVELY] -->
+    <a href="https://prime.com">Click here to go to PRIME site.</a>
+    <br>
+    <a href="/about.html">Go to about (Target Tag Inactive)</a>
+    <br>
+    <a href="/about.html" target="_blank">Go to about (Target Tag Active)</a>
+
+    <!-- NEW LINE TAG (Currently this tag is seperating Image and Bold Statement.) -->
+    <br><br>
+
+    <hr>
+
+    <!-- IMAGE (ONLINE AND OFFLINE) TAG AND HYPERLINK-IMAGE TECHNIQUE-->
+    <img src="https://seosherpa.com/wp-content/uploads/2020/08/head-tag-vs-head-element.jpg" alt="Image" width="500px">
+    <img src="/Images/IMG_20220325_063724.jpg" alt="Image" height="312px">
+    <a href="https://google.com" target="_blank"><img src="/Images/IMG_20220325_063724.jpg" alt="Image" width="100"></a>
+
+    <br><br>
+
+    <hr>
+
+    <!-- BOLD, ITALICS AND UNDERLINE TAGS -->
+    <b>This is the Bold Tag.</b>
+    <br>
+    <i>This is an Italics Tag.</i>
+    <br>
+    <u>This is an Underline Tag.</u>
+    <br><br>
+
+    <hr>
+
+    <!-- BIG AND SMALL TAGS -->
+    <big>This is the big text.</big>
+    <br>
+    <small>This is the small text.</small>
+
+    <hr>
+
+    <!-- SUBSCRIPT AND SUPERSCRIPT TAGS -->
+    <p>H<sub>2</sub>SO<sub>4</sub></p>
+    <p>a<sup>2</sup>+b<sup>2</sup>+2ab</p>
+
+    <hr>
+
+    <!-- STRONG, EMPHASIS, MARK AND QUOTE TAGS -->
+    <div>
+            <p>This the text. This <strong>Random-Word</strong> is strong as it is used upon the strong tag.</p>
+            <p>This the text. This <em>Random-Word</em> is emphasised as it is used upon the emphasize tag.</p>
+            <p>The Mark Tag usage is performed on the next line. <mark>This is the highlighted text.</mark> </p>
+            <p>The Del Tag usage is performed on the next line. <del>This is the strikeout/strikethrough text.</del></p>
+            <p><q>This the quoted text.</q></p>
+            <hr>
+            <bdo dir="rtl">What a beautiful day. R2L.</bdo>
+            <br>
+            <bdo dir="ltr">What a beautiful day. L2R.</bdo>
+    </div>
+    <hr>
+    
+    <!-- ABBREVATION TAG -->
+    <div>
+        <abbr title="Indian Space and Research Organization"> ISRO</abbr>
+        <p>The <abbr title="World Health Organization"> WHO </abbr> was founded in 1948.</p>
+        <br>
+        <abbr title="Instead of the full form, it can be any custom line as well."> HOVER OVER ME</abbr>
+    </div>
+    <hr>
+
+    <!-- PRE-TAG -->
+    <pre>
+            Alternatively, one can enable/disable word wrapping by selecting View > Word Wrap from the Menu.07-Nov-2021
+
+                    How to enable/disable word wrap in VSCode - LinuxPip
+        </pre>
+
+    <br>
+    <hr>
+
+    <!-- UNORDERED AND ORDERED LIST TAGS -->
+    <ul>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+        <li>Product 4</li>
+    </ul>
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Pineapple</li>
+        <li>Coconut</li>
+    </ol>
+
+    <br>
+    <hr>
+
+    <!-- TABLE, CAPTION, TH, TD, TR, THEAD, TBODY TAGS -->
+    <table>
+        <caption>The data of different persons.</caption>
+        <thead>
+            <tr>
+                <th>Sr No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Rohit</td>
+                <td>23</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Raju</td>
+                <td>25</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Sheetal</td>
+                <td>24</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Manu</td>
+                <td>21</td>
+                <td>F</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <div>
+        <h1><u>Travel form for the Tour</u></h1>
+        <form action="form.php"></form>
+
+        <h4>Name</h4>
+        <input type="text">
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <h4>Section</h4>
+        <label for="Section Id A">
+            <input type="radio" value="Section A" name="Section" id="Section Id A"> Section A
+        </label>
+        
+        <label for="Section Id B">
+            <input type="radio" value="Section B" name="Section" id="Section Id B"> Section B
+        </label>
+
+        <label for="Section Id C">
+            <input type="radio" value="Section C" name="Section" id="Section Id C"> Section C
+        </label><br><br>
+
+        <input type="checkbox" id="Food Canteen" class="Red" name="Canteen">
+        <label for="Food Canteen">Food Canteen Card</label><br><br>
+
+        <textarea name="Explain" id="Explain" cols="30" rows="10" placeholder="Reason?"></textarea>
+        <br><br>
+
+        <select name="Car Brand" id="Car Brand">
+            <option value="None">Select your Brand</option>
+            <option value="Maruti">Maruti</option>
+            <option value="Tata">Tata</option>
+            <option value="Audi">Audi</option>
+        </select>
+    <div>
+        <hr>
+        <!-- EMBEDDING VIDEO VIA ONLINE MODE (THROUGH YOUTUBE). Copy and paste the online video's iframe tag info below -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <hr>
+
+         <!-- EMBEDDING VIDEO VIA OFFLINE MODE (THROUGH THE DEVICE) -->
+        <video src="/Videos/matt.mp4" controls width="500">Error loading</video>
+
+        <hr>
+
+        <!-- EMBEDDING THE FULL FUNCTIONAL WEBSITE ON THIS WEBPAGE -->
+        <iframe src="https://www.bing.com/" frameborder="0" width="1200" height="600"></iframe>
+    </div>
+
+    <hr><hr>
+
+    <div>
+        <h3>Visit the links for more related pages.</h3>
+        <a href="/about.html" target="_blank">Go to about</a><br>
+        <a href="/anchor.html" target="_blank">Visit Anchor Tag</a><br>
+        <a href="/Big Small Tag.html" target="_blank">Visit Big-Small Tags</a><br>
+        <a href="/BoldItalicsUnderline.html" target="_blank">Visit BoldItalicsUnderline Tags</a><br>
+        <a href="/form tag.html" target="_blank">Visit Form Tag</a><br>
+        <a href="/heading tag.html" target="_blank">Visit Heading Tag</a><br>
+        <a href="/list tag.html" target="_blank">Visit List Tag</a><br>
+        <a href="/paragraph tag.html" target="_blank">Visit Paragraph Tag</a><br>
+        <a href="/pre tag.html" target="_blank">Visit Pre Tag</a><br>
+        <a href="/SubSup Tags.html" target="_blank">Visit SubSup Tag</a><br>
+        <a href="/table tag.html" target="_blank">Visit Table Tag</a><br>
+        <a href="/video.html" target="_blank">Visit Video Tag</a><br>
+    </div>
+    <hr>
+</body>
+</html>
