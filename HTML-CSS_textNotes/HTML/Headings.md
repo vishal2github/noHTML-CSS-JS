@@ -28,8 +28,8 @@ Syntax: <h1></h1>
 ### Practical
 
 <h1>This is heading using h1 tag</h1>
-<h2>This is heading using h1 tag</h2>
-<h3>This is heading using h1 tag</h3>
-<h4>This is heading using h1 tag</h4>
-<h5>This is heading using h1 tag</h5>
-<h6>This is heading using h1 tag</h6>
+<h2>This is heading using h2 tag</h2>
+<h3>This is heading using h3 tag</h3>
+<h4>This is heading using h4 tag</h4>
+<h5>This is heading using h5 tag</h5>
+<h6>This is heading using h6 tag</h6>
