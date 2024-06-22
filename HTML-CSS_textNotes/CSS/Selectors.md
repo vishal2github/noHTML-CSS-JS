@@ -58,7 +58,7 @@ For Example, if one wants to give all the elements of a class named 'blue-bg' to
 ```
 .blue-bg {
     background-color: blue;
-    text-color: white;
+    color: white;
 }
 ```
 <br>
@@ -71,6 +71,78 @@ For Example, if one wants to give an element of an identity named 'identity1' to
 
 ```
 #identity1 {
-    text-color: green;
+    color: green;
+}
+```
+<br>
+
+#### Child Selectors
+
+It matches an element that is an immediate child of another element.
+
+For Example, if one wants all emphasized text in paragraphs to have a certain color (suppose orchid), but not emphasized text in any other elements, then the one can follow:
+
+```
+p > em {
+    color: orchid;
+}
+```
+<br>
+
+#### Adjacent-sibling Selectors
+
+It matches an element that is an immediately after (adjacent) the another element element, but not a child of it.
+
+For Example, if one wants all paragraphs that immediately followed an h3 to have a certain color (suppose orange), but not other paragraphs, then the one can follow:
+
+```
+h3 + p {
+    color: orange;
+}
+```
+<br>
+
+#### Pseudo Selectors
+
+These selectors come in variety of shapes and sizes. The most common pseudo selectors are used for links-styling. There are four primary states of a link are: link, visited, hover, and active.
+
+<b>:link -</b> A link that has not been previously visited (visited is defined by the browser history)
+
+<b>:visited -</b> A link that has been visited
+
+<b>:hover -</b> A link that that mouse cursor is "hovering" over
+
+<b>:active -</b> A link that is currently being clicked
+
+For Example, if one wants certain unvisited links to be visible in red color, visited links in blue, green during hovering over links, and for active links be lime, then one can follow:
+
+```
+a:link {
+    color: red; // for unvisited links
+}
+
+a:visited {
+    color: blue; // for visited links
+}
+
+a:hover {
+    color: green; // links upon hovering
+}
+
+a:active {
+    color: lime; // for active links
+}
+```
+<br>
+
+#### Universal Selector
+
+It matches every element on the page.
+
+For Example, if one wants every element to have a solid blue border of 1px, then the one can follow:
+
+```
+* {
+    border: 1px solid blue;
 }
 ```
